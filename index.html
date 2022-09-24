@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="util.css">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="dark-light">
+    <div><h1 id="heading">Calculator</h1></div>
+    <div class="cont-theme"><button type="buttonn"  id="onoff" onclick="changeColor('a')"></button>
+    <span id="theme"><small>Light theme</small></span></div>
+    <div class="display">
+      <input type="text" name="input" id="input" placeholder="0" >
+    </div>
+    <div class="row opp-btn-flex">
+      <button class="btn opp-btn color-red" onclick="clearScreen()"><b>AC</b></button>
+      <button class="opp-btn btn opr-color" onclick="display('%')"><b>%</b></button>
+      <button class="opp-btn btn opr-color" onclick="display('$')"><b>X <sup><b>Y</b></sup></b></button>
+      <button class="btn opp-btn color-red" onclick="clearone()"><b>C</b></button>
+    </div>
+    <div class="row">
+      <button class="btn num-color" onclick="display(7)">7</button>
+      <button class="btn num-color" onclick="display(8)">8</button>
+      <button class="btn num-color" onclick="display(9)">9</button>
+      <button class="btn opr-color" onclick="display('/')"><b>/</b></button>
+    </div>
+    <div class="row">
+      <button class="btn num-color" onclick="display(4)">4</button>
+      <button class="btn num-color" onclick="display(5)">5</button>
+      <button class="btn num-color" onclick="display(6)">6</button>
+      <button class="btn opr-color" onclick="display('+')"><b>+</b></button>
+    </div>
+    <div class="row">
+      <button class="btn num-color" onclick="display(1)">1</button>
+      <button class="btn num-color" onclick="display(2)">2</button>
+      <button class="btn num-color" onclick="display(3)">3</button>
+      <button class="btn opr-color" onclick="display('-')"><b>-</b></button>
+    </div>
+    <div class="row">
+      <button class="btn dot" onclick="display('.')"><b>.</b></button>
+      <button class="btn num-color" onclick="display(0)">0</button>
+      <button class="btn dot opr-color" onclick="calculate()"><b>=</b></button>
+      <button class="btn opr-color" onclick="display('*')"><b>*</b></button>
+    </div>
+  </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
