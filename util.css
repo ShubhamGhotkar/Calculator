@@ -85,3 +85,15 @@ button:hover {
   flex-direction: row;
   width: 14rem;
 }
+.con-th {
+  display: flex;
+  height: max-content;
+  width: 14rem;
+}
+#img {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-image: url(https://cdn.icon-icons.com/icons2/212/PNG/256/Sound-off256_25032.png);
+  background-size: cover;
+  border-radius: 5px;
+}
