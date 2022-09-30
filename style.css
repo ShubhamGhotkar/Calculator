@@ -3,6 +3,9 @@
     height: 23rem;
     width: 12rem;
   }
+  .con-th {
+    width: 11rem;
+  }
 }
 @media screen and (max-width: 310px) {
   .box {
@@ -20,7 +23,7 @@
   }
   #input {
     margin: 0.3rem 0.1rem;
-    width: 10.4rem;
+    width: 9.4rem;
     height: 2.4rem;
     font-size: large;
     padding: 3px;
@@ -34,6 +37,9 @@
     padding: 3px;
   }
   .opp-btn-flex {
-    width: 10.5rem;
+    width: 10.1rem;
+  }
+  .con-th {
+    width: 11rem;
   }
 }
