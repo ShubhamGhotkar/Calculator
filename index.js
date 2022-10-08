@@ -45,6 +45,9 @@ const changeColor = (a) => {
     }
 }
 const operator = (ope) => {
+    if (str==""){
+        return;
+    }
     if (ope_count) {
         str += ope;
         input.value = str;
@@ -54,6 +57,9 @@ const operator = (ope) => {
 }
 
 const operatordot = (ope) => {
+    if (str==""){
+        return;
+    }
     if (dot_count) {
         str += ope;
         input.value = str;
